@@ -1,22 +1,7 @@
-Sprawozdanie z etapu 1 powinno zawierać analizę danych, które będą przetwarzane przez
-sieć neuronową. Dla zastosowań diagnostycznych należy podać listę nazw cech zawartych
-w wektorze wejściowym (o ile są dostępne/możliwe do ustalenia), zakres zmienności tych
-cech (dodatkowo np. histogramy wartości cech lub podstawowe parametry statystyczne
-wartości cech: wartość średnią i odchylenie standardowe; dla zadań typowo
-klasyfikacyjnych parametry statystyczne należy określić oddzielnie dla co najmniej dwóch
-rozróżnianych klas) oraz proponowany sposób kodowania danych nienumerycznych. W
-sprawozdaniu powinna być opisana proponowana metoda wstępnego przetwarzania
-danych przed podaniem ich na wejście sieci (uwzględniająca np. normalizację/skalowanie
-lub szczegóły postępowania w przypadku danych niekompletnych) oraz proponowany
-podział zbioru danych na dane treningowe i testowe o ile nie został on narzucony z góry
-(dla tematów projektów z danymi syntetycznymi wystarczające są oczywiście nazwy cech
-typu cecha_1, cecha_2 itd.). W sprawozdaniu z etapu 1 powinna być również zawarta
-koncepcja realizacji sieci neuronowej – jej struktura z podaniem liczby neuronów w każdej
-z warstw, funkcja aktywacji oraz szczegóły algorytmu uczenia.
-
 
 # Sprawozdanie SNZB cz. 1 - projekt nr. 2 - Diagnostyka cukrzycy za pomocą sieci uczonej z nauczycielem
-
+Autorzy: Marcin Kurkowicz i Tomasz Strojnowski
+---
 ## Analiza danych do przetworzenia
 Na potrzeby wykonania projektu zostały nam dostarczone pliki `pima.te` oraz `pima.tr2`. Pliki te zawieraja dane medyczne dotyczące populacji młodych kobiet z plemienia Indian Pima, zamieszkujących okolice Phoenix w Arizonie. 
 
